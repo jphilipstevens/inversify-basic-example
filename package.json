@@ -4,6 +4,9 @@
   "description": "A basic example that showcases how to setup InversifyJS",
   "main": "index.js",
   "scripts": {
+    "lint": "tslint -t verbose -c ./tslint.json 'src/**/*.ts'",
+    "prebuild": "npm run lint",
+    "build": "tsc",
     "test": "gulp"
   },
   "repository": {

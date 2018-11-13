@@ -13,6 +13,8 @@
         "noResolve": false,
         "noUnusedParameters": false,
         "noUnusedLocals": true,
-        "strictNullChecks": true
+        "strictNullChecks": true,
+        "sourceMap": true,
+        "outDir": "./dist"
     }
 }

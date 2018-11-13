@@ -1,6 +1,8 @@
 const TAG = {
+    AGGRESSIVE: "AGGRESSIVE",
     CHINESE: "CHINESE",
-    JAPANESE: "JAPANESE"
+    JAPANESE: "JAPANESE",
+    POLITICAL: "POLITICAL",
 };
 
 export default TAG;
